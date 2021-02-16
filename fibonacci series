@@ -1,0 +1,17 @@
+n = int(input("\nPlease Enter the Range Number: "))
+
+
+i = 0
+n1= 0
+n2 = 1
+           
+
+while(i < n):
+           if(i <= 1):
+                      value = i
+           else:
+                      n= n1 + n2
+                      n1 = n2
+                      n2 = value
+           print(value)
+           i = i + 1
